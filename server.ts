@@ -12,7 +12,7 @@ const simulation = new Simulation({
   targetCellCount: 50_000,
   snapshotIntervalMs: 900_000,
   seed: Date.now(),
-  resolution: 11,
+  resolution: 7,
   targetHotspotCount: 50,
 });
 console.time("generateInitialData");
